@@ -1,0 +1,86 @@
+*{
+   
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-repeat: no-repeat;
+    background: rgb(34,193,195);
+background: linear-gradient(90deg, rgb(247, 163, 240)20%, rgb(255, 255, 255) 90%);
+}
+
+/*whole navbar style*/
+
+.navbar{
+  
+   display: flex;
+   text-decoration: none;
+   color: aliceblue;
+   width: auto;
+   padding: 20px;
+   justify-content: right;
+   background-color: rgb(175, 72, 72) ;
+}
+/*navbar link style*/
+
+nav a{
+    text-shadow: 2px 2px 5px black;
+    color: antiquewhite;
+    text-decoration: none;
+    margin: 35px;
+    font-size: x-large;
+}
+
+/* whole registration form*/
+.form1{  
+
+    width: fit-content;
+  box-shadow:  2px 2px 5px black;
+    margin: 30px;
+    height: fit-content;
+  justify-self: center;
+    height: 600px;
+    border-radius: 10px;
+    background-color: rgb(252, 185, 0);
+
+}
+
+/*inside  form content style*/
+
+form{
+    
+    margin: 40px;
+}
+/*heading style*/
+form h1{
+    text-align: center;
+    margin: 0px;
+    text-shadow: 2px 2px 5px black;
+    color: rgb(255, 255, 255);
+}
+/* gap btw labels and heading style*/
+
+form label{
+    text-shadow: 2px 2px 5px rgb(255, 253, 253);
+    font-size: x-large;
+    margin: 20px;
+   
+}
+.submit{
+    align-self: center; 
+    width: 150px;
+    margin-left: 120px;
+    margin-top: 150px;
+    border-radius: 5px;
+    height: 50px;
+  
+}
+
+/* input box size*/
+
+#username,#ID,#email,#number{
+    width: 180px;
+    border-radius: 5px;
+    height: 25px;
+}
+
